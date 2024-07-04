@@ -6,7 +6,7 @@
   <section class="py-5">
     <div class="container px-5">
       <div class="row gx-5 justify-content-center">
-        <div class="col-xxl-10">
+        <div class="col-xxl-8">
           <div class="text-center my-5">
             <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
             <p class="lead fw-light mb-4">My name is Taufiq Kurniawan Akbar, and I'm a student at Amikom Yogyakarta majoring in <a href="https://informatika.amikom.ac.id/" class="text-gradient" target="_blank" style="font-weight: bold;">Informatika</a>.</p>

@@ -9,7 +9,7 @@
 }
 
 .text-gradient {
-    background: -webkit-linear-gradient(360deg, #f44b8d 0%, #fd6573 5%, #f7431f 10%, #e33127 15%, #ff7b24 20%, #ff8a56 25%, #edc500 30%, #d1c300 35%, #7fbd33 40%, #2cad8c 45%, #00a4ad 50%, #02c0ff 55%, #0093eb 60%, #0242d1 65%, #bb63f1 70%, #c445cd 75%);
+    background: -webkit-linear-gradient(45deg, #00BC8C, #0366D6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -40,7 +40,7 @@
     --bs-secondary-rgb: 242, 115, 178 !important;
 
     .text-gradient {
-        background: -webkit-linear-gradient(360deg, #f44b8d 0%, #fd6573 5%, #f7431f 10%, #e33127 15%, #ff7b24 20%, #ff8a56 25%, #edc500 30%, #d1c300 35%, #7fbd33 40%, #2cad8c 45%, #00a4ad 50%, #02c0ff 55%, #0093eb 60%, #0242d1 65%, #bb63f1 70%, #c445cd 75%);
+        background: -webkit-linear-gradient(45deg, #00BC8C, #0366D6);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }

@@ -14,7 +14,7 @@ export default {
       {
         year: "2022 - Present",
         school: "Amikom Yogyakarta",
-        location: "Yogyakrta",
+        location: "Yogyakarta",
         field: "Informatics",
         description: [
           "In the Informatics Study Program I learned a lot about the basics of Programming and continued up to Advance Programming.",
@@ -37,19 +37,19 @@ export default {
             <div class="p-4 rounded-4">
               <div class="text-secondary fw-bolder mb-2">{{education.year}}</div>
               <div class="mb-2">
-                <div class="small fw-bolder">{{education.univ}}</div>
-                <div class="small text-muted">{{education.location}}</div>
+                <div class="small fw-bolder text-black">{{education.school}}</div>
+                <div class="small text-black">{{education.location}}</div>
               </div>
               <div class="fst-italic">
-                <div class="small text-muted">{{education.degree}}</div>
-                <div class="small text-muted">{{education.field}}</div>
+                <div class="small text-black">{{education.degree}}</div>
+                <div class="small text-black">{{education.field}}</div>
               </div>
             </div>
           </div>
           <div class="col-lg-8">
             <div>
               <ul class="mb-0">
-                <li v-for="desc of education.description">
+                <li v-for="desc of education.description" class="text-black">
                   {{desc}}
                 </li>
               </ul>
